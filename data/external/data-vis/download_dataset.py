@@ -25,10 +25,10 @@ def download_and_extract(dataset, file_name, download_path, extract_path):
             shutil.move(csv_file_path, extract_path)
 
 # Parameters
-dataset = "zynicide/wine-reviews"
-file_name = "winemag-data-130k-v2.csv"
+dataset = "alexisbcook/data-for-datavis"
+file_name = "fifa.csv"
 download_path = "./"
-extract_path = "data/external/wine-reviews/"
+extract_path = "data/external/data-vis/"
 
 # Execute the function
 download_and_extract(dataset, file_name, download_path, extract_path)

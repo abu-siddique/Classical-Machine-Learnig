@@ -93,4 +93,4 @@ target/
 /models/
 
 # exclude data from source control by default
-/data/external/wine-reviews/*.csv
+/data/external/*/*.csv
