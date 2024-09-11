@@ -6,5 +6,6 @@ matplotlib
 seaborn
 kaggle
 scipy
+scikit-learn
 
 
